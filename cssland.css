@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.firstbox {
+    height: 300px;
+    background-color: rgb(20, 20, 54);
+    display: flex; /* Add this line */
+    /* Add this line */
+}
+
+.navclass > .ref {
+    display: flex;
+    color: aliceblue;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 12px;
+    margin-top: 20px;
+    
+}
+
+span.header {
+    padding: 10px;
+    color: aliceblue;
+    flex: 1;
+    padding-top: 18px;
+    padding-left: 110px;/* Add this line */
+}
+
+.navclass {
+    flex: 1; 
+    font-size: larger;
+    padding-right: 70px;
+     
+}
