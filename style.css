@@ -33,6 +33,7 @@
 .headlogo {
     text-decoration: none;
     color:white;
+    
 }
 
 .links {
@@ -63,6 +64,26 @@
     margin-top: 0;
 
 }
+.hero-content>.left-content{
+    padding-left: 150px;
+}
 
 
+button{
+    border: none;
+    background-color: #3882F6;
+    
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+}
+.hero-btn{
+    text-decoration: none;
+    color: white;
+}
+.rightcontent{
+        background-color: #f9faf8;
+        padding: 100px;
+        opacity: 0.5;
 
+}
